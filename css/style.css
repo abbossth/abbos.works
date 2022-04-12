@@ -10,7 +10,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -52,7 +51,7 @@ section{
     background:#333;
     color:#fff;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 2rem;
     border-radius: 5rem;
 }
@@ -312,7 +311,7 @@ header .navbar ul li a:hover{
 
 .contact .row .content{
     flex:1 1 30rem;
-    padding:4rem;
+    padding: 4rem;
     padding-bottom: 0;
 }
 
@@ -324,8 +323,8 @@ header .navbar ul li a:hover{
 }
 
 .contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
+    padding: 1.5rem;
+    margin: 1rem 0;
     background:#3333;
     color:#fff;
     text-transform: none;
@@ -341,8 +340,10 @@ header .navbar ul li a:hover{
     height: 15rem;
     resize: none;
 }
-
-.contact .row .content .title{
+form .btn {
+    margin: 2rem 0;
+}
+.contact .row .content .title, form .title{
     text-transform: uppercase;
     color:#fff;
     font-size: 3rem;
@@ -369,16 +370,6 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
